@@ -1,7 +1,7 @@
 services:
   # run jupyter notebook inside jupyter 
   jupyter-notebook:
-    image:  beardw/test_various_env:33c9f7b
+    image:  beardw/test_various_env:c591628
     ports:
       - "8888:8888"
     volumes:
