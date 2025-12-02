@@ -82,5 +82,5 @@ dependencies:
   - watchfiles=1.1.1
   - pip=25.3
   - pandera=0.26.1
-  - pip:
-    - deepchecks==0.19.1
+  #- pip:
+    #- deepchecks==0.19.1
