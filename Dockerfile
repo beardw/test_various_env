@@ -6,3 +6,9 @@ RUN conda update --quiet --file /tmp/conda-linux-64.lock \
     && conda clean --all -y -f \
     && fix-permissions "${CONDA_DIR}" \
     && fix-permissions "/home/${NB_USER}"
+
+RUN pip install deepchecks==0.19.1
+
+RUN pip install ucimlrepo==0.0.7
+
+# RUN pip install quarto==1.5.57
